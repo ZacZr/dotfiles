@@ -1,3 +1,8 @@
 [mgr]
 
 show_hidden    = false
+
+[opener]                                                                                                                                                              
+edit = [
+    { run = "${EDITOR:-vim} %s", desc = "$EDITOR",      for = "unix", block = true },
+]
