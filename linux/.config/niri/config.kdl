@@ -84,8 +84,7 @@ spawn-sh-at-startup "systemctl --user import-environment WAYLAND_DISPLAY XDG_CUR
 spawn-sh-at-startup "qs -c noctalia-shell"
 
 spawn-sh-at-startup "vicinae server"
-// spawn-sh-at-startup "vesktop"
-spawn-sh-at-startup "discord"
+spawn-sh-at-startup "equibop"
 
 
 spawn-at-startup "spotify"
@@ -111,7 +110,7 @@ workspace "1"
 
 window-rule {
     match at-startup=true app-id="zen$"
-    match at-startup=true app-id="vesktop$"
+    match at-startup=true app-id="equibop$"
     match at-startup=true app-id="discord$"
     match at-startup=true app-id="kitty$"
 
@@ -180,12 +179,12 @@ window-rule {
 // floating pips
 window-rule {
     match app-id=r#"zen"# title="^Picture-in-Picture$"
-    match app-id=r#"vesktop$"# title=r#"^Discord Popout"#
+    match app-id=r#"equibop$"# title=r#"^Discord Popout"#
     match app-id=r#"discord$"# title=r#"^Discord Popout"#
 
     open-floating true
-
     default-floating-position x=0 y=2 relative-to="top-right"
+
     default-window-height { proportion 0.4; }
     default-column-width { proportion 0.29; }
 }
