@@ -1,6 +1,5 @@
 if test (uname) = "Linux"
     source /usr/share/cachyos-fish-config/cachyos-config.fish
-    alias clear="clear && fastfetch"
 end
 
 function y
@@ -12,6 +11,7 @@ function y
 	rm -f -- "$tmp"
 end
 
+alias clear="clear && fastfetch"
 alias ls='eza -al --color=always --group-directories-first --icons'
 alias vi="vim"
 set -x YDOTOOL_SOCKET $HOME/.ydotool_socket
