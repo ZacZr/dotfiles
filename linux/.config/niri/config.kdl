@@ -164,7 +164,7 @@ window-rule {
 
 // fake fullscreen games
 window-rule {
-    match app-id="sober"
+    match app-id="org.vinegarhq.Sober"
     match app-id="^Lunar Client"
     match app-id="^Minecraft"
     match app-id="^Nomi-CEu"
