@@ -219,7 +219,7 @@ binds {
 
     Mod+Escape { spawn-sh "qs -c noctalia-shell ipc call sessionMenu toggle"; }
 
-    Mod+Space { spawn-sh "playerctl -p spotify play-pause && playerctl -p spotify volume 0.35"; }
+    Mod+Space { spawn-sh "playerctl -p spotify play-pause"; }
 
     Mod+Shift+Z { set-dynamic-cast-monitor; }
     Mod+Z { set-dynamic-cast-window; }
