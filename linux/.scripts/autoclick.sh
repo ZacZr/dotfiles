@@ -12,5 +12,4 @@ notify-send -u "low" "Autoclick started."
 
 while [ -f "$LOCKFILE" ]; do
     ydotool click --next-delay 2 0xC0
-    sleep 0.5
 done

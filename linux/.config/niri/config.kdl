@@ -88,7 +88,9 @@ spawn-sh-at-startup "equibop"
 
 
 spawn-at-startup "spotify"
-spawn-at-startup "zen-browser"
+// spawn-at-startup "zen-browser"
+spawn-at-startup "brave-browser"
+
 spawn-at-startup "kitty"
 
 
@@ -110,6 +112,7 @@ workspace "1"
 
 window-rule {
     match at-startup=true app-id="zen$"
+    match at-startup=true app-id="brave-browser$"
     match at-startup=true app-id="equibop$"
     match at-startup=true app-id="discord$"
     match at-startup=true app-id="kitty$"
@@ -179,6 +182,7 @@ window-rule {
 // floating pips
 window-rule {
     match app-id=r#"zen"# title="^Picture-in-Picture$"
+    match app-id=r#"brave-browser$"# title="^Picture-in-Picture$"
     match app-id=r#"equibop$"# title=r#"^Discord Popout"#
     match app-id=r#"discord$"# title=r#"^Discord Popout"#
 
