@@ -157,6 +157,7 @@ window-rule {
     match app-id="gamescope"
     match app-id="rocketleague.exe"
     match app-id="endfield.exe"
+    match app-id="War Thunder"
 
     exclude app-id=r#"steam_app_"# title="^$"
 
