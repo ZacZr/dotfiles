@@ -74,7 +74,7 @@ transition_duration = 100
 address = "Perth, Ausralia"
 
 [widget.clock]
-format = "{:%r:%M %a %d %b}"
+format = "{:%r %a %d %b}"
 
 [widget.control-center]
 scale = 1.1
