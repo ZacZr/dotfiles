@@ -1,0 +1,80 @@
+[backdrop]
+enabled = true
+
+[bar.default]
+capsule = true
+shadow = false
+margin_edge = 0
+margin_ends = 0
+capsule_padding = 8.0
+radius = 0
+thickness = 28
+start = [ "clock", "media" ]
+center = [ "workspaces" ]
+end = [ "tray", "notifications", "clipboard", "volume", "brightness", "battery", "control-center" ]
+
+[control_center]
+sidebar = "full"
+
+[desktop_widgets]
+enabled = false
+schema_version = 1
+
+[notification]
+layer = "overlay"
+offset_x = 6
+offset_y = 6
+
+[shell]
+font_family = "JetBrains Mono"
+polkit_agent = true
+settings_show_advanced = true
+telemetry_enabled = false
+
+    [shell.screen_corners]
+    size = 1
+
+    [shell.screenshot]
+    directory = "/home/zz/Pictures/Screenshots"
+    filename_pattern = "%Y-%m-%d %H-%m-%S"
+
+    [[shell.session.actions]]
+    action = "shutdown"
+    enabled = true
+    shortcut = "1"
+    variant = "destructive"
+
+    [[shell.session.actions]]
+    action = "reboot"
+    enabled = true
+    shortcut = "2"
+    variant = "default"
+
+[theme]
+source = "wallpaper"
+wallpaper_scheme = "m3-monochrome"
+
+    [theme.templates]
+    enable_builtin_templates = false
+    enable_community_templates = false
+
+[wallpaper]
+directory = "/home/zz/Pictures/Wallpapers"
+fill_mode = "center"
+transition = [ "fade" ]
+transition_duration = 100
+
+    [wallpaper.default]
+    path = "/home/zz/Pictures/Wallpapers/raven tacet mark.png"
+
+    [wallpaper.last]
+    path = "/home/zz/Pictures/Wallpapers/raven tacet mark.png"
+
+[weather]
+address = "Perth, Ausralia"
+
+[widget.clock]
+format = "{:%H:%M %a %d %b}"
+
+[widget.control-center]
+scale = 1.1
