@@ -84,7 +84,7 @@ spawn-sh-at-startup "systemctl --user import-environment WAYLAND_DISPLAY XDG_CUR
 spawn-sh-at-startup "noctalia -d"
 
 spawn-sh-at-startup "vicinae server"
-spawn-sh-at-startup "equibop"
+spawn-sh-at-startup "equibop --wayland"
 
 
 spawn-at-startup "spotify"
