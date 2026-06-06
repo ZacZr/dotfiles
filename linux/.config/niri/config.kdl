@@ -226,7 +226,7 @@ binds {
     Mod+F { toggle-window-floating; }
 
     Mod+S { spawn-sh "killall -SIGUSR1 gpu-screen-recorder & notify-send -a gpu-screen-recorder Replay\\ Saved"; }
-    Mod+Shift+S { spawn-sh "noctalia msg screenshot-region"; }
+    Mod+Shift+S { spawn-sh "niri msg action screenshot"; }
 
     Mod+X { spawn-sh "~/.scripts/autoclick.sh"; }
 
