@@ -10,7 +10,7 @@ Categories=GNOME;GTK;Game;
 Terminal=false
 PrefersNonDefaultGPU=true
 SingleMainWindow=true
-Exec=game-performance taskset -c 0-4,6-10 /usr/bin/flatpak run ---env=SOBER_USE_NEW_TEXT_RENDERER=0 -branch=stable --arch=x86_64 --command=sober --file-forwarding org.vinegarhq.Sober -- @@u %u @@
+Exec=game-performance taskset -c 0-4,6-10 /usr/bin/flatpak run --branch=stable --arch=x86_64 --command=sober --file-forwarding org.vinegarhq.Sober -- @@u %u @@
 Actions=open-settings;
 X-Flatpak-Tags=proprietary;
 X-Flatpak=org.vinegarhq.Sober
