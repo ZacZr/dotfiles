@@ -3,7 +3,7 @@
     "considerPreedit": false,
     "faviconService": "none",
     "font": {
-        "normal": "Roboto",
+        "normal": "Jetbrains mono",
         "size": 10.5
     },
     "keybinding": "default",
