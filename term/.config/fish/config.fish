@@ -14,5 +14,6 @@ end
 alias clear="clear && fastfetch"
 alias ls='eza -al --color=always --group-directories-first --icons'
 alias vi="vim"
+alias code="codium"
 set -x YDOTOOL_SOCKET $HOME/.ydotool_socket
 
