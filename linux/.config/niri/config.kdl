@@ -229,6 +229,7 @@ binds {
 
     Mod+Shift+Z { set-dynamic-cast-monitor; }
     Mod+Z { set-dynamic-cast-window; }
+    Mod+Ctrl+Z { clear-dynamic-cast-target; }
 
     Mod+Space { spawn-sh "playerctl -p spotify play-pause && playerctl -p spotify volume 0.35"; }
 
