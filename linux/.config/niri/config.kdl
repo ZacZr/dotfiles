@@ -81,7 +81,7 @@ spawn-sh-at-startup "systemctl --user import-environment WAYLAND_DISPLAY XDG_CUR
 spawn-sh-at-startup "noctalia -d"
 
 spawn-sh-at-startup "vicinae server"
-spawn-sh-at-startup "equibop --wayland"
+spawn-sh-at-startup "discord"
 
 // 15 sec replay, 30fps, 4k bitrate, with audio (goal is sub 10MB replay)
 spawn-sh-at-startup "gpu-screen-recorder -w screen -c mp4 -f 30 -r 15 -bm cbr -q 4000 -k av1 -ac opus -ab 48k -o ~/Videos/replays -a 'default_output'"
@@ -112,7 +112,6 @@ workspace "1"
 window-rule {
     match at-startup=true app-id="zen$"
     match at-startup=true app-id="brave-browser$"
-    match at-startup=true app-id="equibop$"
     match at-startup=true app-id="discord$"
     match at-startup=true app-id="kitty$"
 
@@ -182,7 +181,6 @@ window-rule {
 // floating pips
 window-rule {
     match title="(?i)^Picture-in-Picture$"
-    match app-id=r#"equibop$"# title=r#"^Discord Popout"#
     match app-id=r#"discord$"# title=r#"^Discord Popout"#
 
     open-floating true
