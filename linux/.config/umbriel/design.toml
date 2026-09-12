@@ -6,10 +6,9 @@ gap = 2                     # 0-500
 width_presets = [0.5, 1.0]  # width and height cycling, tiled and floating alike
 
 [layout.scrolling]
-direction = "horizontal"
 default_width_fraction = 0.5    # remove to let clients choose their initial width
 center_underfull_strip = false  # center the strip whenever it is narrower than the viewport
-center_focused = false          # always center the focused column
+center_focused = "never"          # always center the focused column
 
 # Appearance -----------------------------------------------------------------
 

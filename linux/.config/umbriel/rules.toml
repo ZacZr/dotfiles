@@ -21,6 +21,7 @@ default_workspace = 1
 
 [[window_rule]]
 match.app_id = "spotify|steam|heroic|org.prismlauncher.PrismLauncher"
+default_focused = false
 default_workspace = 2
 
 [[window_rule]]
