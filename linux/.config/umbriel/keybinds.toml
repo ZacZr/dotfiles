@@ -10,7 +10,7 @@
 "Mod+D" = { action = "spawn:noctalia msg panel-toggle launcher", repeat = false }
 
 "Mod+Shift+F" = "window-toggle-fullscreen"
-"Mod+Ctrl+F" = "window-cycle-width"
+"Mod+Ctrl+F" = "window-cycle-primary-extent"
 "Mod+f" = "window-toggle-floating"
 
 "Mod+Shift+P" = "window-focus-switch-floating"

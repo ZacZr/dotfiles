@@ -46,17 +46,17 @@ match.title = "Picture-in-[Pp]icture|Discord Popout"
 default_floating = true
 default_pinned = true
 default_position = { x = 4, y = 4, anchor = "top_right" }
-default_size = [960, 540]
+default_floating_size_px = { width = 960, height = 540 }
 
 [[window_rule]]
 match.app_id = "^dev.noctalia.Noctalia$"
 default_floating = true
-default_size = [1020, 900]
+default_floating_size_px = { width = 1020, height = 900 }
 
 [[window_rule]]
 match.app_id = "^dev.noctalia.UmbrielSharePicker$"
 default_floating = true
-default_size = [800, 600]
+default_floating_size_px = { width = 800, height = 600 }
 
 # Layer rules (see docs/user/layer-rules.md) ---------------------------
 
