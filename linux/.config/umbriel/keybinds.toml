@@ -16,10 +16,13 @@
 "Mod+Shift+P" = "window-focus-switch-floating"
 "Mod+P" = "window-toggle-pinned"
 
-"Mod+Shift+S" = "spawn:noctalia msg screenshot-region"
+"Mod+S" = "spawn:noctalia msg screenshot-region"
+"Mod+Shift+S" = "spawn:~/.scripts/apps/gsr/capture.sh"
 
 "Mod+X" = "spawn:~/.scripts/autoclick.sh"
-"Mod+Z" = "spawn:~/.scripts/apps/gsr/capture.sh"
+
+"Mod+Z" = "screencast-set-output"
+"Mod+Shift+Z" = "screencast-set-window"
 
 "Mod+Space" = "spawn:~/.scripts/apps/spotify/play-pause.sh"
 

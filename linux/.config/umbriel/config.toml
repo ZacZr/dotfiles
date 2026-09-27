@@ -44,6 +44,9 @@ tearing = true              # allow eligible fullscreen clients to request teari
 hdr = "auto"                # "off", "on", metadata-driven "auto", or any-app "fullscreen"
 enabled = true              # false removes it; re-enabling restores windows, layout, active workspace, and taskbar entries
 
+[screencast]
+disable_dynamic_confirmation = true
+
 # Input ----------------------------------------------------------------------
 
 [input]
