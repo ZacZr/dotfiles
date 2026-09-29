@@ -23,6 +23,7 @@
 
 "Mod+Z" = "screencast-set-output"
 "Mod+Shift+Z" = "screencast-set-window"
+"Mod+Ctrl+Z" = "screencast-clear"
 
 "Mod+Space" = "spawn:~/.scripts/apps/spotify/play-pause.sh"
 
